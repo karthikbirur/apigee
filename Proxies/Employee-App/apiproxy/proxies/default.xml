@@ -5,7 +5,7 @@
         <Request>
             <Step>
                 <Name>RF.InvalidMethod</Name>
-                <Condition>(request.verb = "PUT") or (request.verb = "DELETE") Or (request.verb = "PATCH")</Condition>
+                <Condition>(request.verb = "PUT") or (request.verb = "DELETE")</Condition>
             </Step>
             <Step>
                 <Name>FC.SecurityFlow</Name>
