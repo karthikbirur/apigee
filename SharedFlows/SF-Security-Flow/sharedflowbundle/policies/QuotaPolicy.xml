@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Quota async="false" continueOnError="false" enabled="true" name="QuotaPolicy">
+    <DisplayName>QuotaPolicy</DisplayName>
+    <Properties/>
+    <Allow count="10" countRef="request.header.allowed_quota"/>
+    <Interval>1</Interval>
+    <Distributed>true</Distributed>
+    <Synchronous>true</Synchronous>
+    <TimeUnit>minute</TimeUnit>
+</Quota>

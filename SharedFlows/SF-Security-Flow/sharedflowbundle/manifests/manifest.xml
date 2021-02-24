@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Manifest name="manifest">
+    <Policies>
+        <VersionInfo resourceName="JSONThreatProtection" version="SHA-512:1bbfd840b2fb4a648faf042b2d3fdd5f1d723159ab17236edb0cd94c79db8c790224252dfeba6df1c1f8f74151ca2ef9107e56bb4a340cbeb2e463aefe72626b"/>
+        <VersionInfo resourceName="QuotaPolicy" version="SHA-512:41ac1db6948e29a0f2980afac9b0af1c1ca20986d5e4b34c82aa4ef698e2c4777b3e5899a94aaec3eb931742d1eae8d766e7767aa5df27484650560b546e02e0"/>
+        <VersionInfo resourceName="XMLThreatProtection" version="SHA-512:2156c610462a9d653d10f21559c8f0177a668c6f457a3c859f1554ac78b2d6bc91039ae2db5b7a6af42ac7c36dba652942a592c2b4c07bce1e24b09a02386744"/>
+    </Policies>
+    <ProxyEndpoints/>
+    <Resources/>
+    <SharedFlows>
+        <VersionInfo resourceName="default" version="SHA-512:ce56cefdd4ac8af8bc03d8c3812f30d93dd73d977a1ba908b5283a28a92a7f37a1bbc06b5b28a10ecbe0fccdf528c95147d2ec72a0f34e411d35bc3e8c6782ac"/>
+    </SharedFlows>
+    <TargetEndpoints/>
+</Manifest>

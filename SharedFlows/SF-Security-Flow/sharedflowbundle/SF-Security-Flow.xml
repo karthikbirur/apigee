@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<SharedFlowBundle revision="2" name="SF-Security-Flow">
+    <ConfigurationVersion majorVersion="4" minorVersion="0"/>
+    <CreatedAt>1614022303786</CreatedAt>
+    <CreatedBy>birurkarthik@gmail.com</CreatedBy>
+    <Description>This shared flow contains spike arrest, quota and JSON, XML threat protection policies.</Description>
+    <DisplayName>SF-Security-Flow</DisplayName>
+    <LastModifiedAt>1614030351892</LastModifiedAt>
+    <LastModifiedBy>birurkarthik@gmail.com</LastModifiedBy>
+    <ManifestVersion>SHA-512:9a3be180be11714dd5018bba376e20cce23be99917cde695f8e58c2a0b7bd99d5b4f9ec1a16fc02c0f4d708a66631d900a56a773a4627e98288b6ab57f8a90c8:eu-west-1</ManifestVersion>
+    <Policies>
+        <Policy>JSONThreatProtection</Policy>
+        <Policy>QuotaPolicy</Policy>
+        <Policy>XMLThreatProtection</Policy>
+    </Policies>
+    <Resources/>
+    <Spec></Spec>
+    <subType>SharedFlow</subType>
+    <SharedFlows>
+        <SharedFlow>default</SharedFlow>
+    </SharedFlows>
+</SharedFlowBundle>
