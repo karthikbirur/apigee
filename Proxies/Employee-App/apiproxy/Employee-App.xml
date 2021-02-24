@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<APIProxy revision="23" name="Employee-App">
+    <Basepaths>/v1/api</Basepaths>
+    <ConfigurationVersion majorVersion="4" minorVersion="0"/>
+    <CreatedAt>1614029474066</CreatedAt>
+    <CreatedBy>birurkarthik@gmail.com</CreatedBy>
+    <Description>This API proxy exposes - 
+1. GET employees
+2. GET employee by employeeID
+3. CREATE employee</Description>
+    <DisplayName>Employee-App</DisplayName>
+    <LastModifiedAt>1614159184662</LastModifiedAt>
+    <LastModifiedBy>birurkarthik@gmail.com</LastModifiedBy>
+    <ManifestVersion>SHA-512:8cc815fcb7e73a1efd3c311b35ac8807bf6c5a3261c896f1225cf0cc85583944fc9cae61b8cebe9c2a091a6659887802d3a201477b80dbc04ef3401b39fdabb6:eu-west-1</ManifestVersion>
+    <Policies>
+        <Policy>AM.AddCORS</Policy>
+        <Policy>EV.ExtractPayload</Policy>
+        <Policy>FC.SecurityFlow</Policy>
+        <Policy>JS.PrintPayload</Policy>
+        <Policy>OA.VerifyAccessToken</Policy>
+        <Policy>RF.InvalidMethod</Policy>
+        <Policy>RF.InvalidOrigin</Policy>
+    </Policies>
+    <ProxyEndpoints>
+        <ProxyEndpoint>default</ProxyEndpoint>
+    </ProxyEndpoints>
+    <Resources>
+        <Resource>jsc://PrintEname.js</Resource>
+    </Resources>
+    <Spec></Spec>
+    <TargetServers/>
+    <TargetEndpoints>
+        <TargetEndpoint>default</TargetEndpoint>
+    </TargetEndpoints>
+</APIProxy>

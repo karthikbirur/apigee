@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ProxyEndpoint name="default">
+    <FaultRules/>
+    <PreFlow name="PreFlow">
+        <Request>
+            <Step>
+                <Name>RF.InvalidMethod</Name>
+                <Condition>(request.verb = "PUT") or (request.verb = "DELETE") Or (request.verb = "PATCH")</Condition>
+            </Step>
+            <Step>
+                <Name>FC.SecurityFlow</Name>
+            </Step>
+            <Step>
+                <Name>AM.AddCORS</Name>
+                <Condition>request.verb = "OPTIONS"</Condition>
+            </Step>
+            <Step>
+                <Name>RF.InvalidOrigin</Name>
+                <Condition>request.header.origin = null</Condition>
+            </Step>
+            <Step>
+                <Name>OA.VerifyAccessToken</Name>
+            </Step>
+        </Request>
+        <Response>
+            <Step>
+                <Name>EV.ExtractPayload</Name>
+            </Step>
+            <Step>
+                <Name>JS.PrintPayload</Name>
+            </Step>
+        </Response>
+    </PreFlow>
+    <Flows>
+        <Flow name="/employee">
+            <Description>Get all the employees</Description>
+            <Request/>
+            <Response/>
+            <Condition>(proxy.pathsuffix MatchesPath "/employee") and (request.verb = "GET")</Condition>
+        </Flow>
+        <Flow name="/employee/{id}">
+            <Description>Get the specific employee</Description>
+            <Request/>
+            <Response/>
+            <Condition>(proxy.pathsuffix MatchesPath "/employee/{id}") and (request.verb = "GET")</Condition>
+        </Flow>
+        <Flow name="/create">
+            <Description>Create an employee</Description>
+            <Request/>
+            <Response/>
+            <Condition>(proxy.pathsuffix MatchesPath "/create") and (request.verb = "POST")</Condition>
+        </Flow>
+    </Flows>
+    <PostFlow name="PostFlow">
+        <Request/>
+        <Response/>
+    </PostFlow>
+    <HTTPProxyConnection>
+        <BasePath>/v1/api</BasePath>
+        <VirtualHost>secure</VirtualHost>
+    </HTTPProxyConnection>
+    <RouteRule name="NoRoute">
+        <Condition>request.verb = "OPTIONS"</Condition>
+    </RouteRule>
+    <RouteRule name="default">
+        <TargetEndpoint>default</TargetEndpoint>
+    </RouteRule>
+</ProxyEndpoint>

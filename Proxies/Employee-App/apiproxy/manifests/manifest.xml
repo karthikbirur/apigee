@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Manifest name="manifest">
+    <Policies>
+        <VersionInfo resourceName="AM.AddCORS" version="SHA-512:361bf2579b48fecc10e28bf90545b573245eec939e85085fca6aea28d1fed279691a4d875a6ba2b3d521f90a77145e54f577962ccb1b8ca5e57af8fbc1fb4f01"/>
+        <VersionInfo resourceName="EV.ExtractPayload" version="SHA-512:d51754e078afe274f103a512fead2f4a7500f30259c74368defb68b555264dcad81eceb434cde146ad9f91e71557e15a80d151ef1ee008ece02258337470d098"/>
+        <VersionInfo resourceName="FC.SecurityFlow" version="SHA-512:4c0134f0e6342abfdd26fa02909d44b9b0bf8c0afc10b49764e3ea82851a2ba0d0d7a32b4f4b4e400ef4465fb60c262763c9c8b57c6262f6343a86409c35934c"/>
+        <VersionInfo resourceName="JS.PrintPayload" version="SHA-512:54cbf2473731cc825d4c62700ede908047ff75da37afcfd94fa49d88ab3eb8e2842fd933fdab7ae9652947dfe52825e87173c6898763a6fa37b32ebdd211195c"/>
+        <VersionInfo resourceName="OA.VerifyAccessToken" version="SHA-512:bdacccb81aab482000ab998a3c77dc85bf16f13546a71bf9e079aea5708aa0d0e0d44019e972ec45185f5c139f7ba40170ad4a4f44d0c308d2f69c95ec043469"/>
+        <VersionInfo resourceName="RF.InvalidMethod" version="SHA-512:1c087f0905d193f7cd98048326ac12f84c796b0b52f206ab7c5a9b5678bb12f6eea519702fcb5a05f2e2634c9326ab350af025e72c430337cf09d87398e0596b"/>
+        <VersionInfo resourceName="RF.InvalidOrigin" version="SHA-512:63ec2b2169b30badd4c0f256b9a5f48f19d5c039313b615f693005955ccfae4b55a0fb8d55bdb9fb266dbde38a829beb5a9d4499f6a2afb6b556292f6044911e"/>
+    </Policies>
+    <ProxyEndpoints>
+        <VersionInfo resourceName="default" version="SHA-512:0b1af4afa961b398b8dd5846a1bfb4bbdc6cd978e75944a6ac176a82dfb99fdf0064d72115ba3e1876228b5de136166f4fa2ad4c70f5d17c38fbff6e26fb3e33"/>
+    </ProxyEndpoints>
+    <Resources>
+        <VersionInfo resourceName="jsc://PrintEname.js" version="SHA-512:545bfb65826cf1181b87569e67be7bd98bbd055eaaa311906c32c6c5695f3406e2640ff0771800c98565e67adcb36110f0f75eaf5e473d76147002df7b311eb7"/>
+    </Resources>
+    <SharedFlows/>
+    <TargetEndpoints>
+        <VersionInfo resourceName="default" version="SHA-512:79d10353fb94bcd4425fcdfcdda984438a417c49618ce0de51f0d0f7c29aedffe8b7e163b332d8cc0d527daf58a0b594c4880f3b55ed44b31550591841a02947"/>
+    </TargetEndpoints>
+</Manifest>

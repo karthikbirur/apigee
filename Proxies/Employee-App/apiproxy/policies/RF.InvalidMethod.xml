@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<RaiseFault async="false" continueOnError="false" enabled="true" name="RF.InvalidMethod">
+    <DisplayName>RF.InvalidMethod</DisplayName>
+    <Properties/>
+    <FaultResponse>
+        <Set>
+            <Headers/>
+            <Payload contentType="application/json">
+                {"Message":"The request method is known by the server but has been disabled and cannot be used."}
+            </Payload>
+            <StatusCode>405</StatusCode>
+            <ReasonPhrase>Method not allowed</ReasonPhrase>
+        </Set>
+    </FaultResponse>
+    <IgnoreUnresolvedVariables>true</IgnoreUnresolvedVariables>
+</RaiseFault>
