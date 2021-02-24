@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<APIProxy revision="1" name="OAuth2-Gen">
+    <Basepaths>/oauth2/token</Basepaths>
+    <ConfigurationVersion majorVersion="4" minorVersion="0"/>
+    <CreatedAt>1614034411577</CreatedAt>
+    <CreatedBy>birurkarthik@gmail.com</CreatedBy>
+    <Description></Description>
+    <DisplayName>OAuth2-Gen</DisplayName>
+    <LastModifiedAt>1614034592020</LastModifiedAt>
+    <LastModifiedBy>birurkarthik@gmail.com</LastModifiedBy>
+    <ManifestVersion>SHA-512:5a6693490b3f33f6b4d47419fcb01e13a5ff700f23f98e9644e8c2523df1b074eda6c8ad849cdeae787f3dfc3b24a736d8aee34b2b0e58c8826bf9b4973d6e03:eu-west-1</ManifestVersion>
+    <Policies>
+        <Policy>OA-GenerateAccessToken</Policy>
+    </Policies>
+    <ProxyEndpoints>
+        <ProxyEndpoint>default</ProxyEndpoint>
+    </ProxyEndpoints>
+    <Resources/>
+    <Spec></Spec>
+    <TargetServers/>
+    <TargetEndpoints/>
+</APIProxy>
