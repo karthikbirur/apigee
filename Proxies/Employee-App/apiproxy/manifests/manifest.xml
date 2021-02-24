@@ -10,7 +10,7 @@
         <VersionInfo resourceName="RF.InvalidOrigin" version="SHA-512:63ec2b2169b30badd4c0f256b9a5f48f19d5c039313b615f693005955ccfae4b55a0fb8d55bdb9fb266dbde38a829beb5a9d4499f6a2afb6b556292f6044911e"/>
     </Policies>
     <ProxyEndpoints>
-        <VersionInfo resourceName="default" version="SHA-512:0b1af4afa961b398b8dd5846a1bfb4bbdc6cd978e75944a6ac176a82dfb99fdf0064d72115ba3e1876228b5de136166f4fa2ad4c70f5d17c38fbff6e26fb3e33"/>
+        <VersionInfo resourceName="default" version="SHA-512:d52f720f578a4ad8ab8ab1f80d5bfeacd4a9b721be03577e3c7b7ede3efe7d717224429943159343e060aa810e5d02f44eeda8707c7e4ea893525f9a80463cc0"/>
     </ProxyEndpoints>
     <Resources>
         <VersionInfo resourceName="jsc://PrintEname.js" version="SHA-512:545bfb65826cf1181b87569e67be7bd98bbd055eaaa311906c32c6c5695f3406e2640ff0771800c98565e67adcb36110f0f75eaf5e473d76147002df7b311eb7"/>
