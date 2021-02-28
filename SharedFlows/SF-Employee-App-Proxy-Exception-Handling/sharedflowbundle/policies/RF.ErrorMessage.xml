@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<RaiseFault async="false" continueOnError="false" enabled="true" name="RF.ErrorMessage">
+    <DisplayName>RF.ErrorMessage</DisplayName>
+    <Properties/>
+    <FaultResponse>
+        <Set>
+            <Headers/>
+            <Payload contentType="text/plain">{flow.errorUserMessage}</Payload>
+            <StatusCode>{flow.errorStatusCode}</StatusCode>
+            <ReasonPhrase>{flow.errorReasonPhrase}</ReasonPhrase>
+        </Set>
+    </FaultResponse>
+    <IgnoreUnresolvedVariables>true</IgnoreUnresolvedVariables>
+</RaiseFault>

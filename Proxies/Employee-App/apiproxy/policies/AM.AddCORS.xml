@@ -5,6 +5,10 @@
     <Properties/>
     <Remove>
         <Headers>
+            <Header name="Host"/>
+            <Header name="X-Forwarded-For"/>
+            <Header name="X-Forwarded-Port"/>
+            <Header name="Authorization"/>
             <Header name="Access-Control-Allow-Origin"/>
             <Header name="Access-Control-Allow-Headers"/>
             <Header name="Access-Control-Max-Age"/>
@@ -14,8 +18,8 @@
     </Remove>
     <Add>
         <Headers>
-            <Header name="Access-Control-Allow-Origin">{request.header.origin}</Header>
-            <Header name="Access-Control-Allow-Headers">origin,Authorization</Header>
+            <Header name="Access-Control-Allow-Origin">abc.com</Header>
+            <Header name="Access-Control-Allow-Headers">Origin,Authorization</Header>
             <Header name="Access-Control-Max-Age">3628800</Header>
             <Header name="Access-Control-Allow-Methods">GET,POST</Header>
             <Header name="Access-Control-Allow-Credentials">true</Header>

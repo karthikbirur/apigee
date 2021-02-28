@@ -5,7 +5,7 @@
     <FaultResponse>
         <Set>
             <Headers/>
-            <Payload contentType="application/json">{"Message":"Origin of the request is not recognized."}</Payload>
+            <Payload contentType="text/plain">Origin of the request is not recognized</Payload>
             <StatusCode>403</StatusCode>
             <ReasonPhrase>Forbidden</ReasonPhrase>
         </Set>

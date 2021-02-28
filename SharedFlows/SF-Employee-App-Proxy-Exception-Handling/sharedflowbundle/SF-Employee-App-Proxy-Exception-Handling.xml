@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<SharedFlowBundle revision="3" name="SF-Employee-App-Proxy-Exception-Handling">
+    <ConfigurationVersion majorVersion="4" minorVersion="0"/>
+    <CreatedAt>1614272983097</CreatedAt>
+    <CreatedBy>birurkarthik@gmail.com</CreatedBy>
+    <Description>This shared flow handles all the errors thrown in the Proxy flow in Employee-App.</Description>
+    <DisplayName>SF-Employee-App-Proxy-Exception-Handling</DisplayName>
+    <LastModifiedAt>1614540642599</LastModifiedAt>
+    <LastModifiedBy>birurkarthik@gmail.com</LastModifiedBy>
+    <ManifestVersion>SHA-512:4c73c864bb096346d83bdb5acbf0b94a78a6f84f01ea92a76a958fc00291225c26559cf52e003de034eebe311e3be0b89e8755e6a83241476bddc9c825220d2b:eu-west-1</ManifestVersion>
+    <Policies>
+        <Policy>JS.ProxyErrorHandling</Policy>
+        <Policy>RF.ErrorMessage</Policy>
+    </Policies>
+    <Resources>
+        <Resource>jsc://ProxyErrorHandling.js</Resource>
+    </Resources>
+    <Spec></Spec>
+    <subType>SharedFlow</subType>
+    <SharedFlows>
+        <SharedFlow>default</SharedFlow>
+    </SharedFlows>
+</SharedFlowBundle>

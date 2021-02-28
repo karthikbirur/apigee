@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<APIProxy revision="23" name="Employee-App">
+<APIProxy revision="38" name="Employee-App">
     <Basepaths>/v1/api</Basepaths>
     <ConfigurationVersion majorVersion="4" minorVersion="0"/>
     <CreatedAt>1614029474066</CreatedAt>
@@ -9,13 +9,15 @@
 2. GET employee by employeeID
 3. CREATE employee</Description>
     <DisplayName>Employee-App</DisplayName>
-    <LastModifiedAt>1614167418856</LastModifiedAt>
+    <LastModifiedAt>1614544162602</LastModifiedAt>
     <LastModifiedBy>birurkarthik@gmail.com</LastModifiedBy>
-    <ManifestVersion>SHA-512:9bba873c0d1807f5c5fec3621b2c946a61ea5d49f3ccff41a3ade8d8623882732d1debdc8e8e9216fba43c9d4f53ce64782e5b5b9abffc3863fef7c19755359f:eu-west-1</ManifestVersion>
+    <ManifestVersion>SHA-512:8eea41aed56c380269b3b3c87ab897ee3b4b3914728ab05879e7901fea8548d5c04bd366133e67f4af7e836e01300db1f595f29ad7c995d47334f599a01deae8:eu-west-1</ManifestVersion>
     <Policies>
         <Policy>AM.AddCORS</Policy>
         <Policy>EV.ExtractPayload</Policy>
+        <Policy>FC.ProxyExceptionHandling</Policy>
         <Policy>FC.SecurityFlow</Policy>
+        <Policy>FC.TargetExceptionHandling</Policy>
         <Policy>JS.PrintPayload</Policy>
         <Policy>OA.VerifyAccessToken</Policy>
         <Policy>RF.InvalidMethod</Policy>

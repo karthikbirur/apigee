@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Manifest name="manifest">
+    <Policies>
+        <VersionInfo resourceName="JS.ProxyErrorHandling" version="SHA-512:e972c29b8212c0ac0be9e08046133033d9ffd4780002372e3e4fc26bbcfeee2b5baa710f140e67fa37b0951c66e1e3f8497521d0495a819f4f44ea5498856096"/>
+        <VersionInfo resourceName="RF.ErrorMessage" version="SHA-512:98564d62ec3736c0a29d6dcb22f7dc1a9cfada25d42463c55dc09871da65ad04b0abc4aa8410d21c7495adafa642adf06b15e3fea740df762c0fc648d08621a9"/>
+    </Policies>
+    <ProxyEndpoints/>
+    <Resources>
+        <VersionInfo resourceName="jsc://ProxyErrorHandling.js" version="SHA-512:ae2d8e7b65c68d0cc5214ee818660be0e932bd41b8786b1432dc8e456890d31023fe6695d9134e67d01baeb3ea5b7110d9170d268845c4f4e4a7812658e4451a"/>
+    </Resources>
+    <SharedFlows>
+        <VersionInfo resourceName="default" version="SHA-512:3283842029d3104209ffc2d9eec886536bec505087fe2107bf322c857238251e769fa42971c242e66628847e9863ec37f395b65149d79bcee447320834b70802"/>
+    </SharedFlows>
+    <TargetEndpoints/>
+</Manifest>

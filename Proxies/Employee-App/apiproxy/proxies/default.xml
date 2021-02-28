@@ -1,22 +1,27 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <ProxyEndpoint name="default">
-    <FaultRules/>
+    <FaultRules>
+        <FaultRule name="EmpAppRule">
+            <Step>
+                <Name>JS.PrintPayload</Name>
+            </Step>
+            <Condition>(fault.name = "RaiseFault")</Condition>
+        </FaultRule>
+    </FaultRules>
+    <DefaultFaultRule>
+        <AlwaysEnforce>false</AlwaysEnforce>
+        <Step>
+            <Name>FC.ProxyExceptionHandling</Name>
+        </Step>
+    </DefaultFaultRule>
     <PreFlow name="PreFlow">
         <Request>
-            <Step>
-                <Name>RF.InvalidMethod</Name>
-                <Condition>(request.verb = "PUT") or (request.verb = "DELETE")</Condition>
-            </Step>
             <Step>
                 <Name>FC.SecurityFlow</Name>
             </Step>
             <Step>
-                <Name>AM.AddCORS</Name>
-                <Condition>request.verb = "OPTIONS"</Condition>
-            </Step>
-            <Step>
                 <Name>RF.InvalidOrigin</Name>
-                <Condition>request.header.origin = null</Condition>
+                <Condition>request.header.origin != "abc.com"</Condition>
             </Step>
             <Step>
                 <Name>OA.VerifyAccessToken</Name>
@@ -32,6 +37,16 @@
         </Response>
     </PreFlow>
     <Flows>
+        <Flow name="OptionsPreFlight">
+            <Description>Add CORS headers</Description>
+            <Request>
+                <Step>
+                    <Name>AM.AddCORS</Name>
+                </Step>
+            </Request>
+            <Response/>
+            <Condition>request.verb = "OPTIONS"</Condition>
+        </Flow>
         <Flow name="/employee">
             <Description>Get all the employees</Description>
             <Request/>
@@ -49,6 +64,16 @@
             <Request/>
             <Response/>
             <Condition>(proxy.pathsuffix MatchesPath "/create") and (request.verb = "POST")</Condition>
+        </Flow>
+        <Flow name="Invalid Method 405">
+            <Description>Method not allowed</Description>
+            <Request>
+                <Step>
+                    <Name>RF.InvalidMethod</Name>
+                </Step>
+            </Request>
+            <Response/>
+            <Condition>(request.verb != "POST") and (request.verb != "GET")</Condition>
         </Flow>
     </Flows>
     <PostFlow name="PostFlow">
