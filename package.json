@@ -5,7 +5,8 @@
   "main": "tests.js",
   "dependencies": {
     "expect": "^1.20.2",
-    "sinon": "^1.17.3"
+    "sinon": "^1.17.3",
+    "tests": "^0.4.2"
   },
   "devDependencies": {
     "mocha": "^2.4.5"
