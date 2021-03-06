@@ -9,7 +9,7 @@
     "tests": "^0.4.2"
   },
   "devDependencies": {
-    "mocha": "^2.4.5"
+    "mocha": "^2.5.3"
   },
   "scripts": {
     "test": "mocha tests.js"
