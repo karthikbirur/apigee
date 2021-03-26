@@ -5,7 +5,7 @@
     <Properties/>
     <Remove>
         <Headers>
-            <Header name="Host"/>
+            <Header name="Host" />
             <Header name="X-Forwarded-For"/>
             <Header name="X-Forwarded-Port"/>
             <Header name="Authorization"/>

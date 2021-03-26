@@ -1,6 +1,6 @@
 var expect = require('expect');
 var sinon = require('sinon');
-var jsFile = './ProxyErrorHandling.js';
+var jsFile = 'SharedFlows/SF-Employee-App-Proxy-Exception-Handling/sharedflowbundle/resources/jsc/ProxyErrorHandling.js';
 var contextVars = {};
 
 //Mocha Tests here:
