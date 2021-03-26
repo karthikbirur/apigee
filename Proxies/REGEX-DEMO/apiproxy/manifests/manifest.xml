@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Manifest name="manifest">
+    <Policies>
+        <VersionInfo resourceName="RE-SecureNameQueryParam" version="SHA-512:9dd82503f561b07680e573d1184107014b10f5aaa999c20fbc7a6d74a912e9c49969ff16a83efbf92c8f007a5c2cdb8856b78837ae4812de4f1cf5e02639e843"/>
+    </Policies>
+    <ProxyEndpoints>
+        <VersionInfo resourceName="default" version="SHA-512:0667dee9c5d4616529ec6c1683b41f98683fa9a8c41d3833c00be8643f082ebdc50cc8a34b3ea1227d4d7fae92d87b95b6b21cdb3df7b09804ff439f9e4d718e"/>
+    </ProxyEndpoints>
+    <Resources/>
+    <SharedFlows/>
+    <TargetEndpoints>
+        <VersionInfo resourceName="default" version="SHA-512:4f93e2903d7fe8dcc5b88a0196cc2be316eed3965d7ab8e90188578ae76ba5900f0f8d1893080a89c70504dedc8c41d7d86002c71c19930e7d2bb4a6a0d96686"/>
+    </TargetEndpoints>
+</Manifest>

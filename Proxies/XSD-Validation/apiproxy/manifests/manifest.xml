@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Manifest name="manifest">
+    <Policies/>
+    <ProxyEndpoints>
+        <VersionInfo resourceName="default" version="SHA-512:621523b7dcc67af0280a7dc02575a8721125f6d3140a0880396bf7dfe6ffe1c8080272b671b1ea498c4c61e3fea850d20c17165a03e1ad5c6a120c059ebdeefe"/>
+    </ProxyEndpoints>
+    <Resources>
+        <VersionInfo resourceName="xsd://note.xsd" version="SHA-512:84c2774075dd276584c67b427c1648e633c989f17549d629e0e8469f9d4d0ea21b927e93e3c6f7fbb834446c3ffca4ed7d97dab7a25cb196dfeb1ece36af6a52"/>
+    </Resources>
+    <SharedFlows/>
+    <TargetEndpoints>
+        <VersionInfo resourceName="default" version="SHA-512:651cdef5119cb7edaf3c44fb480f4afb0e55297bd3411e4c7e27003489a30c65f2e7b65745075861defae2c300478fdc232275bc442a92d3b7d6ef0d7200a07b"/>
+    </TargetEndpoints>
+</Manifest>

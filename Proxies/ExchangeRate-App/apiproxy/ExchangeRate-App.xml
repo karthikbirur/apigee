@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<APIProxy revision="1" name="ExchangeRate-App">
+    <Basepaths>/v1/base</Basepaths>
+    <ConfigurationVersion majorVersion="4" minorVersion="0"/>
+    <CreatedAt>1614009974452</CreatedAt>
+    <CreatedBy>birurkarthik@gmail.com</CreatedBy>
+    <Description></Description>
+    <DisplayName>ExchangeRate-App</DisplayName>
+    <LastModifiedAt>1614027548728</LastModifiedAt>
+    <LastModifiedBy>birurkarthik@gmail.com</LastModifiedBy>
+    <ManifestVersion>SHA-512:7ec53ebd431186ae2a45b5ccd66b5bee7ed9d7adc66102ee7806e48adbd46fddbc03988894ed00e22d47e4e1d1c3794b8e9854f6ca66496aa2e217fe3b24cf88:eu-west-1</ManifestVersion>
+    <Policies>
+        <Policy>FCSecurityFlow</Policy>
+    </Policies>
+    <ProxyEndpoints>
+        <ProxyEndpoint>default</ProxyEndpoint>
+    </ProxyEndpoints>
+    <Resources/>
+    <Spec></Spec>
+    <TargetServers/>
+    <TargetEndpoints>
+        <TargetEndpoint>default</TargetEndpoint>
+    </TargetEndpoints>
+</APIProxy>

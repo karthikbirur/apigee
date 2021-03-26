@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<APIProxy revision="1" name="admin-fx-gateway">
+    <Basepaths>/admin-fx-gateway</Basepaths>
+    <ConfigurationVersion majorVersion="4" minorVersion="0"/>
+    <CreatedAt>1615822474997</CreatedAt>
+    <CreatedBy>birurkarthik@gmail.com</CreatedBy>
+    <Description></Description>
+    <DisplayName>admin-fx-gateway</DisplayName>
+    <LastModifiedAt>1615836864261</LastModifiedAt>
+    <LastModifiedBy>birurkarthik@gmail.com</LastModifiedBy>
+    <ManifestVersion>SHA-512:dae0f4c2ceb90452b72cc4d6cc0a6c3767b07a9fc299a0e0e3c5ac88f54f5bf704a14ca69a9fdd6eb1c313cdc8e03a9f81e17e1e18fc36da21f2ea5bc3ee0d57:eu-west-1</ManifestVersion>
+    <Policies>
+        <Policy>AM-SendDummyResponse</Policy>
+        <Policy>remove-query-param-apikey</Policy>
+        <Policy>verify-api-key</Policy>
+    </Policies>
+    <ProxyEndpoints>
+        <ProxyEndpoint>default</ProxyEndpoint>
+    </ProxyEndpoints>
+    <Resources/>
+    <Spec></Spec>
+    <TargetServers/>
+    <TargetEndpoints/>
+</APIProxy>

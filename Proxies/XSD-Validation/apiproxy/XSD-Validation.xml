@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<APIProxy revision="2" name="XSD-Validation">
+    <Basepaths>/v1/xsd-mock</Basepaths>
+    <ConfigurationVersion majorVersion="4" minorVersion="0"/>
+    <CreatedAt>1613486010267</CreatedAt>
+    <CreatedBy>birurkarthik@gmail.com</CreatedBy>
+    <Description></Description>
+    <DisplayName>XSD-Validation</DisplayName>
+    <LastModifiedAt>1613486010267</LastModifiedAt>
+    <LastModifiedBy>birurkarthik@gmail.com</LastModifiedBy>
+    <ManifestVersion>SHA-512:0211770816ba788c0adc6e88c261bee30a1a8e52eaf6b4f5f564bcd9ca5ecfda1aab6ba7e476b6a9f3fe291f5df799a692f0808879d4244d4d4f21b21a3e4cdc</ManifestVersion>
+    <Policies/>
+    <ProxyEndpoints>
+        <ProxyEndpoint>default</ProxyEndpoint>
+    </ProxyEndpoints>
+    <Resources>
+        <Resource>xsd://note.xsd</Resource>
+    </Resources>
+    <Spec></Spec>
+    <TargetServers/>
+    <TargetEndpoints>
+        <TargetEndpoint>default</TargetEndpoint>
+    </TargetEndpoints>
+</APIProxy>

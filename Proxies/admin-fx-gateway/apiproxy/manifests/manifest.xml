@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Manifest name="manifest">
+    <Policies>
+        <VersionInfo resourceName="AM-SendDummyResponse" version="SHA-512:1fb9a53c87d755e7b51ddd15638c4b31021549b65a0a7339c558d9a15d119a8fd3ecf15ce01e6300ac9bfc7599437c38db021bdfb1de66457d601b9201f35cb4"/>
+        <VersionInfo resourceName="remove-query-param-apikey" version="SHA-512:bebd2e662024f852231175e62f9aa7367aec21aa9ab4541f19e85d7d0f5d8dabe69cd2aea0ef00676549e0e7867693a907b8f661a0a7a4773587fd135a3b5f09"/>
+        <VersionInfo resourceName="verify-api-key" version="SHA-512:f50bda3fb8004531dbaf802e042ee6575c40cec7a979962b81ec38c7de9f78de308e704faa3afa45d17fde1126c1f057a062b64f687c073478c70f0241e155e5"/>
+    </Policies>
+    <ProxyEndpoints>
+        <VersionInfo resourceName="default" version="SHA-512:a321339f9c169ad934851ccbc2393b24f4ef97e7aa78829ee8bef6cff3c2cb542e473c3c40a4568f9d9c8b0834661f06911a1d4943abe23f29b925a3286a69fb"/>
+    </ProxyEndpoints>
+    <Resources/>
+    <SharedFlows/>
+    <TargetEndpoints/>
+</Manifest>

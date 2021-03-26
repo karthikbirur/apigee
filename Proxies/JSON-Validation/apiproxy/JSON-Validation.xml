@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<APIProxy revision="1" name="JSON-Validation">
+    <Basepaths>/v1/jv-mock</Basepaths>
+    <ConfigurationVersion majorVersion="4" minorVersion="0"/>
+    <CreatedAt>1613486437981</CreatedAt>
+    <CreatedBy>birurkarthik@gmail.com</CreatedBy>
+    <Description></Description>
+    <DisplayName>JSON-Validation</DisplayName>
+    <LastModifiedAt>1613486437981</LastModifiedAt>
+    <LastModifiedBy>birurkarthik@gmail.com</LastModifiedBy>
+    <ManifestVersion>SHA-512:c881aec6a47cc3c8e718356d9958b69cbaa8e65c1c6d4076250d30feed4709642e4b9c91845e07fc5decc10482bede1e7d01862022ee0dda2eff267634e8c7aa:eu-west-1</ManifestVersion>
+    <Policies/>
+    <ProxyEndpoints>
+        <ProxyEndpoint>default</ProxyEndpoint>
+    </ProxyEndpoints>
+    <Resources/>
+    <Spec></Spec>
+    <TargetServers/>
+    <TargetEndpoints>
+        <TargetEndpoint>default</TargetEndpoint>
+    </TargetEndpoints>
+</APIProxy>

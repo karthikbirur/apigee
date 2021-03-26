@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Manifest name="manifest">
+    <Policies>
+        <VersionInfo resourceName="FCSecurityFlow" version="SHA-512:2bb84eca5376abcacfe03044f7e911122e317a776cdfd7ca3d8d0e3057e2515db02468eeb08bf6cf1985293617d82b4424f8d4d05c5bdbec24af8fcd4d055c1f"/>
+    </Policies>
+    <ProxyEndpoints>
+        <VersionInfo resourceName="default" version="SHA-512:35527c1256719b3cb0376b2b104b1d40159eae879502ce58e709260aab7c8bd114828737dd299a8a248a6ad6a6d32c0e65c1b0dd6abc430730147d80e70edf20"/>
+    </ProxyEndpoints>
+    <Resources/>
+    <SharedFlows/>
+    <TargetEndpoints>
+        <VersionInfo resourceName="default" version="SHA-512:a32aef59ceffcbafb05cebd1084d8a74d42b63972c4db8721e41709f3cf35a4b058baa2853ae7d18a9c36b701dca32fb4ca50bc2fe256168d5c9ded779e53a19"/>
+    </TargetEndpoints>
+</Manifest>

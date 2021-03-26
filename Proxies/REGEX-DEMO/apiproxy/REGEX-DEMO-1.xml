@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<APIProxy revision="1" name="REGEX-DEMO-1">
+    <Basepaths>/v1/rc-mock</Basepaths>
+    <ConfigurationVersion majorVersion="4" minorVersion="0"/>
+    <CreatedAt>1613483851247</CreatedAt>
+    <CreatedBy>birurkarthik@gmail.com</CreatedBy>
+    <Description></Description>
+    <DisplayName>REGEX-DEMO-1</DisplayName>
+    <LastModifiedAt>1613484174281</LastModifiedAt>
+    <LastModifiedBy>birurkarthik@gmail.com</LastModifiedBy>
+    <ManifestVersion>SHA-512:8df5d3c6778f17a7be45815ffcfb7756f4e19e7796627f67eb27f1901958398090cd68f791a0205c94463156db9ce021ba4c6db1a4d4138853e475fcae173cc4:eu-west-1</ManifestVersion>
+    <Policies>
+        <Policy>RE-SecureNameQueryParam</Policy>
+    </Policies>
+    <ProxyEndpoints>
+        <ProxyEndpoint>default</ProxyEndpoint>
+    </ProxyEndpoints>
+    <Resources/>
+    <Spec></Spec>
+    <TargetServers/>
+    <TargetEndpoints>
+        <TargetEndpoint>default</TargetEndpoint>
+    </TargetEndpoints>
+</APIProxy>
